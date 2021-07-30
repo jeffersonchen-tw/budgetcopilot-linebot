@@ -1,0 +1,100 @@
+{
+	"type": "bubble",
+	"body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		{
+			"type": "text",
+			"text": "使用指引",
+			"weight": "bold",
+			"size": "xl"
+		},
+		{
+			"type": "separator",
+			"margin": "md"
+		},
+		{
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "md",
+			"contents": [
+			{
+				"type": "text",
+				"text": "記帳",
+				"weight": "bold",
+				"size": "lg"
+			},
+			{
+				"type": "text",
+				"text": "輸入 $<金額> <項目>\n例如： $50 炸雞。\n若紀錄錯誤可輸入「清除前一項」以清除帳目。",
+				"size": "md",
+				"wrap": true
+			},
+			{
+				"type": "separator",
+				"size": "lg"
+			},
+			{
+				"type": "text",
+				"text": "結算",
+				"weight": "bold",
+				"size": "lg"
+			},
+			{
+				"type": "text",
+				"text": "直接輸入「結算」",
+				"size": "md"
+			}
+			]
+		},
+		{
+			"type": "separator",
+			"margin": "lg"
+		},
+		{
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "md",
+			"contents": [
+			{
+				"type": "text",
+				"text": "如何使用BudgetCopilot?",
+				"weight": "bold",
+				"size": "lg"
+			},
+			{
+				"type": "text",
+				"text": "⚠️務必先建立一google試算表，\n並將試算表服務帳號共用後，\n以格式「試算表 <試算表網址>」回傳。\n加入後可輸入「確認試算表」，以查看是否成功加入試算表。",
+				"size": "md",
+				"wrap": true
+			},
+			{
+				"type": "text",
+				"text": "回傳範例: 試算表 https://docs.google.com/spreadsheets/d/EjfrivBfrf08....../edit#gid=0"
+			},
+			{
+				"type": "button",
+				"style": "link",
+				"height": "sm",
+				"action": {
+					"type": "postback",
+					"label": "點我查看以複製服務帳號",
+					"data": "G&account"
+				}
+			},
+			 {
+		        "type": "button",
+		        "style": "link",
+		        "height": "sm",
+		        "action": {
+		          "type": "uri",
+		          "label": "點我前往Google試算表",
+		          "uri": "https://www.google.com/sheets/about/"
+		        }
+		     }
+			]
+		}
+		]
+	}
+}
