@@ -1,7 +1,7 @@
 ## BudgetCopilot linebot 記帳工具
 ---
 ### line 連結
-[qrcode](./332fwgdk.png)
+![qrcode](./332fwgdk.png)
 ---
 ### 使用指南
 
