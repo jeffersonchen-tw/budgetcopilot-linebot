@@ -1,5 +1,8 @@
 ## BudgetCopilot linebot 記帳工具
 ---
+### line 連結
+[qrcode](https://github.com/jeffersonchen-tw/budgetcopilot-linebot/blob/main/332fwgdk.png)
+---
 ### 使用指南
 
 1. 記帳
